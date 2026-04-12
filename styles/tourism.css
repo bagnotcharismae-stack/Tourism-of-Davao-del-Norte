@@ -1,0 +1,295 @@
+*{ 
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+body{
+	font-family: Georgia;
+	color: #333333;
+}
+
+.header{
+	font-family: Georgia;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 20px;
+	background: #012A4A;
+	color: white;
+	margin-bottom: 0 !important;
+}
+
+.logo-title{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo img{
+	display: inline-block;
+	vertical-align: middle;
+	height: 100px;
+}
+
+.header h1{
+	font-family: Georgia;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 10px;
+	font-size: 30px;
+}
+
+.navbar .dropdown-menu.dropdown-content {
+	font-family: Georgia;
+    background :#012A4A;
+    border: none;
+    border-radius: 0;
+    min-width: 170px;
+    padding: 0;
+}
+
+.navbar .dropdown-menu.dropdown-content .dropdown-item {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar .dropdown-menu.dropdown-content .dropdown-item:hover {
+    background: #007AA2;
+    color: black;
+}
+
+.navbar-nav.fw-bold .nav-link {
+	font-family: Georgia;
+    color: white !important;
+    padding: 10px 12px;
+}
+
+.navbar-nav.fw-bold .nav-link:hover {
+    background: #007AA2;
+    border-radius: 4px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+ }
+
+.banner{
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+.banner-home{
+	background-image: url("../images/municipalities.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-home2{
+	background-image: url("../images/cities.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-home3{
+	background-image: url("../images/municipalities.webp");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-home4{
+	background-image: url("../images/cities.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-home5{
+	background-image: url("../images/culture.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.banner-home6{
+	background-image: url("../images/leisure.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.banner-text h3{
+	font-family: Georgia;
+	color: #FFFFFF;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.banner-text h1{
+	font-family: Georgia;
+	color: #FFFFFF;
+	font-size: 80px;
+}
+
+.banner-text h2{
+	font-family: Georgia;
+	color: #FFFFFF;
+	font-size: 35px;
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+
+
+.box{
+	font-family: Georgia;
+	font-size: 22px;
+	color: solid black;
+	background-color: #FFFFFF;
+	padding: 25px;
+	border-radius: 0px;
+	max-width: 2200px;
+	margin: 0px auto; 
+	text-align: center;	
+}
+
+.gallery {
+	padding: 20px 0;
+	background: #F0EFE7;
+}
+
+.gallery .section-title {
+	font-family: Georgia;
+	background-color: #F0EFE7;
+	margin-bottom: 30px;
+	font-size: 45px;
+	color: #051650;
+	text-align: center;
+	padding: 8px 0;
+}
+
+.tourism-card {
+	background: #F2F3F4;
+	border-top: 4px solid #006CA5;
+	border-radius: 6px;
+	padding: 15px;
+	transition: transform 0.3s, box-shadow 0.3s;
+	height: 100%;
+}
+
+.tourism-card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 5px 14px rgba(0,0,0,0.18);
+}
+
+.tourism-card img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	border-radius: 5px;
+}
+
+.tourism-card h3 {
+	font-family: Georgia;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #002B7F;
+}
+
+.tourism-card a img {
+	display: block;
+}
+
+
+.footer{
+	background:  #012A4A;
+	color: white;
+	padding: 5px 10px;
+}
+
+.footer-section{
+	margin-bottom: 20px;
+}
+
+.footer-section h3{
+	font-family: Georgia;
+	margin-bottom: 10px;
+	color: #FFFFFF; 
+}
+
+.footer-section ul{
+	list-style: none;
+}
+
+.footer ul li{
+	margin-bottom: 6px;
+}
+
+.footer-section ul li a{
+	font-family: Georgia;
+	color: white;
+	text-decoration: none;
+}
+
+
+.footer {
+	background:  #012A4A;
+	color: white;
+	padding: 40px 20px;
+	margin-top: 40px;
+}
+
+.footer h3 {
+	font-family: Georgia;
+	margin-bottom: 10px;
+	color: #FFFFFF; 
+}
+
+.footer-section ul {
+	font-family: Georgia;
+	color: #FFFFFF; 
+	list-style: none;
+	padding-left: 0;
+}
+
+.footer ul li {
+	font-family: Georgia;
+	color: #FFFFFF; 
+	margin-bottom: 6px;
+}
+
+.footer ul li a {
+	font-family: Georgia;
+	color: white;
+	text-decoration: none;
+}
+
+.footer ul li a:hover {
+	font-family: Georgia;
+	color: #FFFFFF; 
+	text-decoration: underline;
+}
+
+.footer-bottom {
+	width: 100%;
+	text-align: center;
+	border-top: 1px solid rgba(255,255,255,0.4);
+	padding-top: 12px;
+	font-size: 14px;
+}
